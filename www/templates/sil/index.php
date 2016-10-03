@@ -23,7 +23,7 @@
 			<a href='<?php echo JUri::base(TRUE);?>'>
 				<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo.png" alt="logo" id="logo-img"></a>
 		</div>
-		<ul class="left-nav-menu">
+	<!--	<ul class="left-nav-menu">
 			<div class="block-submenu">
 				<li class="low-voltage-systems">
 					<a href="low-current-systems.html">Слаботочные системы</a>
@@ -57,7 +57,8 @@
 			<li>
 				<a href="protection-of-premises.html">Защита помещений</a>
 			</li>
-		</ul>
+		</ul>  -->
+        <jdoc:include type="modules" name="position-1"/>
 		<input
                 type="search"
                 name="search"
@@ -295,9 +296,9 @@
 
 	</div>
 
-	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<!--<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 	<script type="text/javascript" src="js/jcarousellite_1.0.1.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/script.js"></script> -->
 
 </body>
 </html>
