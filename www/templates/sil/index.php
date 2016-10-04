@@ -5,22 +5,25 @@
     
     $doc->addStyleSheet(JUri::base(TRUE). '/templates/' . $doc->template . '/css/style.css');
     $doc->addStyleSheet(JUri::base(TRUE). '/templates/' . $doc->template . '/css/reset.css');
-    $doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/jcarousellite_1.0.1.js', 'text/javascript');
-    $doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/jquery-1.8.2.min.js', 'text/javascript');
-    $doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/script.js', 'text/javascript');
+    //$doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/jcarousellite_1.0.1.js', 'text/javascript');
+    //$doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/jquery-1.8.2.min.js', 'text/javascript');
+    //$doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/script.js', 'text/javascript');
 
 ?>
 <!doctype html>
 <html>
 <head>
     <jdoc:include type="head" />
+    <link rel="icon" href="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon.ico" type="image/x-icon">
+            
 </head>
 
 <body>
 	<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/back.png" alt="back" class="background">
 	<div class="side-bar">
 		<div class="logo">
-			<a href='<?php echo JUri::base(TRUE);?>'>
+			<a href='/index.php'>
 				<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo.png" alt="logo" id="logo-img"></a>
 		</div>
 	<!--	<ul class="left-nav-menu">
@@ -59,12 +62,11 @@
 			</li>
 		</ul>  -->
         <jdoc:include type="modules" name="position-1"/>
-		<input
-                type="search"
-                name="search"
-                placeholder="Поиск по сайту"
-                class="search-area">
-		<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/search.png" alt="search" class="search-img"></div>
+	
+    <jdoc:include type="modules" name="position-2"/>
+		<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/search.png" alt="search" class="search-img">
+        
+        </div>
 	<div class="block-body">
 
 		<div class="header">
@@ -192,24 +194,8 @@
 				</div>
 
 			</div>
-			<div class="about-us">
-				<h1>О нас</h1>
-				<div class="about-us-img"></div>
-				<h2>Lorem Ipsum</h2>
-				<p class="information-loren-ipsum">
-					Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-				</p>
-
-				<img src="images/1111.png" alt="foto">
-				<h3>Линус Торвальдс</h3>
-				<h4>Ведущий программиист</h4>
-				<p class="information-linus-torvalds">
-					Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-				</p>
+			<div class="about-us">				          			
+                <jdoc:include type="component"/>
 			</div>
 			<div class="section">
 				<h1>Разделы</h1>
