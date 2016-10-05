@@ -5,11 +5,11 @@
 
 /* Module edit in front-end */
 
-.jmoddiv.jmodinside {
+/*.jmoddiv.jmodinside {
     position: relative;
     top: 0;
     left: 0;
-}
+}*/
 .btn.jmodedit
 {
     z-index: 1001;
