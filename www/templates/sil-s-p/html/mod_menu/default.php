@@ -10,18 +10,20 @@
 defined('_JEXEC') or die;
 ?>
 <ul class="top-nav-menu">
-<?php 
+<?php
 foreach ($list as $i => &$item)
 {
+    echo "$item->id";
+    echo "$active_id"+1;
 	$current = FALSE;
-    
-    if($item->id == $active_id)
+
+    if($item->id == $active_id+1)
     {
         $current = TRUE;
     }
-    
+
     echo "<li>";
-    
+
     if ($current)
     {
         echo "<a href='".$item->flink."'>".$item->title."</a>";

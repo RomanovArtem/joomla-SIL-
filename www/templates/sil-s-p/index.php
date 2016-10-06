@@ -75,35 +75,8 @@
 
 		<div class="content-second-page">
 			<div class="scroller">
-				<!--<div class="container">
-					<h1>О нас</h1>
-					<img src="images/map.png" class="map" alt="map">
-					<div class="block-information">
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
-
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
-
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
-
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
-
-					</div>
-					<div class="second-page-numbers">
-						<p class="first-number">+7 (903) 201-95-17</p>
-						<p class="second-number">+7 (903) 201-95-17</p>
-						<p class="mail">gek-206@yandex.ru</p>
-					</div> -->
+				<div class="container">
+					
 
 					<jdoc:include type="component"/>
 				</div>
@@ -111,16 +84,10 @@
 		</div>
 		<div class="footer">
 			<div class="footer-information">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation.
-				</p>
+				<jdoc:include type="modules" name="position-3"/>
 			</div>
 			<div class="contact-details">
-				<p>
-					+7 (903) 201-95-17
-					<br>gek-206@yandex.ru</p>
+				<jdoc:include type="modules" name="position-4"/>
 			</div>
 			<div class="feedback">
 				<h1>ОБРАТНАЯ СВЯЗЬ</h1>
@@ -147,9 +114,9 @@
 
 	</div>
 
-	<!--<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-	<script type="text/javascript" src="js/jcarousellite_1.0.1.js"></script>
-	<script type="text/javascript" src="js/script.js"></script> -->
+	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/jcarousellite_1.0.1.js"></script>
+	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/script.js"></script>
 
 </body>
 </html>

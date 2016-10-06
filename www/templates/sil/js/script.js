@@ -126,7 +126,7 @@ $(document).ready(function() {
         if (flag == 1) {
             var i = Math.round(Math.random() * 3);
             var image = document.getElementById("logo-img");
-            var imgs = new Array('images/logo.png', 'images/logo2.png', 'images/logo3.png', 'images/logo4.png');
+            var imgs = new Array('templates/sil/images/logo.png', 'templates/sil/images/logo2.png', 'templates/sil/images/logo3.png', 'templates/sil/images/logo4.png');
             image.src = imgs[i];
             localStorage.setItem('logo-img', imgs[i]);
             $('#logo-img').click(function() {
@@ -141,17 +141,17 @@ $(document).ready(function() {
     });
 
     if (localStorage.getItem('logo-img') == 'images/logo.png') {
-        document.getElementById('logo-img').src = 'images/logo.png';
+        document.getElementById('logo-img').src = 'templates/sil/images/logo.png';
     }
 
     if (localStorage.getItem('logo-img') == 'images/logo2.png') {
-        document.getElementById('logo-img').src = 'images/logo2.png';
+        document.getElementById('logo-img').src = 'templates/sil/images/logo2.png';
     }
     if (localStorage.getItem('logo-img') == 'images/logo3.png') {
-        document.getElementById('logo-img').src = 'images/logo3.png';
+        document.getElementById('logo-img').src = 'templates/sil/images/logo3.png';
     }
     if (localStorage.getItem('logo-img') == 'images/logo4.png') {
-        document.getElementById('logo-img').src = 'images/logo4.png';
+        document.getElementById('logo-img').src = 'templates/sil/images/logo4.png';
     }
 
 

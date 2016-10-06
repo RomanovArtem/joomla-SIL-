@@ -547,7 +547,6 @@ body{
     font-family: 'Segoe UI';
     font-size: 4.5vh;
     color: #e3e3e3;
-    position: absolute;
 }
 .map {
     margin-left: 2%;

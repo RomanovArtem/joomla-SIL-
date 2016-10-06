@@ -11,7 +11,7 @@ defined('_JEXEC') or die;
 ?>
 <ul class="top-nav-menu">
 <?php 
-foreach ($list as $i => &$item)
+foreach ($list as $i => $item)
 {
 	$current = FALSE;
     

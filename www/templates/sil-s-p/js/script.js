@@ -18,6 +18,7 @@ $(document).ready(function() {
 
     $('.feedback').click(function() {
         $('.floating-block').slideToggle(400);
+		alert('Добрый день');
     });
 
     $(document).mouseup(function(e) {

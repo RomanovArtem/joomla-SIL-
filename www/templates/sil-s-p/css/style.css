@@ -12,7 +12,7 @@ body{
 
 }
 .header{
-    height: 16%;
+    height: 7%;
     width: 100%;
     float: right;
     margin-top: 6%;
@@ -508,7 +508,7 @@ body{
 
 .content-second-page{
     height: 69vh;
-    width: 92.5vh;
+    width: 94.2vh;
     margin-top: 10.5%;
     margin-left: 6.5%;
     background-color: #56685C;
@@ -517,8 +517,8 @@ body{
 .scroller{
     overflow-x: hidden;
     margin-right: 0.4vh;
-    height: 61vh;
-    width: 92vh;
+    height: 68vh;
+    width: 93vh;
 
 }
 ::-webkit-scrollbar {
@@ -539,7 +539,24 @@ body{
     height: 59.8vh;
     width: 100%;
     position: relative;
+    left: 2%;
+    right: 2%;
     background-color: #56685C;
+}
+.container p img {
+	width: 97%;
+	margin-top: 3%;
+}
+.container a {
+	font-family: 'Segoe UI';
+    font-size: 2vh;
+    font-weight: normal;
+    line-height: 2.5vh;
+    color: #e3e3e3;
+	text-decoration: none;
+}
+.container a:hover {
+	border-bottom: 1px solid #e3e3e3;
 }
 .container h1 {
     padding-left: 2.2%;
@@ -547,7 +564,6 @@ body{
     font-family: 'Segoe UI';
     font-size: 4.5vh;
     color: #e3e3e3;
-    position: absolute;
 }
 .map {
     margin-left: 2%;
@@ -576,7 +592,7 @@ body{
     height: 16.5%;
     right: 2%;
     float: right;
-    bottom: 7%;
+    bottom: 0%;
     position: absolute;
 }
 .first-number, .second-number{
