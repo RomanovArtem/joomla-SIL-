@@ -10,28 +10,26 @@
 defined('_JEXEC') or die;
 ?>
 <ul class="top-nav-menu">
-<?php
-foreach ($list as $i => &$item)
-{
-    echo "$item->id";
-    echo "$active_id"+1;
-	$current = FALSE;
-
-    if($item->id == $active_id+1)
+    <?php
+    foreach ($list as $i => $item)
     {
-        $current = TRUE;
-    }
+        $current = FALSE;
 
-    echo "<li>";
+        if($item->id == $active_id)
+        {
+            $current = TRUE;
+        }
 
-    if ($current)
-    {
-        echo "<a href='".$item->flink."'>".$item->title."</a>";
+        echo "<li>";
+
+        if ($current)
+        {
+            echo "<a href='".$item->flink."'>".$item->title."</a>";
+        }
+        else
+        {
+            echo "<a href='".$item->flink."'>".$item->title."</a>";
+        }
     }
-    else
-    {
-        echo "<a href='".$item->flink."'>".$item->title."</a>";
-    }
-}
-?>
+    ?>
 </ul>

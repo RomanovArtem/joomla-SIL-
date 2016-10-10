@@ -578,6 +578,12 @@ body{
     margin-top: 2.4%;
     margin-left: 2%;
     position: relative;
+	ont-family: 'Segoe UI';
+    font-size: 1.3vh;
+    font-weight: normal;
+    line-height: 1.5vh;
+    color: #e3e3e3;
+    padding-bottom: 9.7%;
 }
 .second-page-information {
     font-family: 'Segoe UI';

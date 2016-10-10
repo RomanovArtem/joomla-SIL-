@@ -83,32 +83,8 @@
 					<div class="banner">
 						<p>Логотип</p>
 					</div>
-					<div class="block-information">
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
+					<jdoc:include type="component"/>
 
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
-
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
-
-						<p class="second-page-information">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</p>
-
-					</div>
-					<div class="second-page-numbers">
-						<p class="first-number">+7 (903) 201-95-17</p>
-						<p class="second-number">+7 (903) 201-95-17</p>
-						<p class="mail">gek-206@yandex.ru</p>
-					</div>
 				</div>
 			</div>
 		</div>

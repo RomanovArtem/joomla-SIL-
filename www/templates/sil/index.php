@@ -79,108 +79,17 @@
 				<div class='viewport'>
 					<ul class='slidewrapper' data-current=0>
 						<li class='slide'>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-microsoft.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-intel.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-gazprom.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-sony.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-rosatom.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-army.png" alt="search"></a>
-							</div>
+							<jdoc:include type="modules" name="position-5"/>
 						</li>
 						<li class='slide'>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-intel.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-intel.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-intel.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-intel.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-intel.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-intel.png" alt="search"></a>
-							</div>
+							<jdoc:include type="modules" name="position-6"/>
 						</li>
 						<li class='slide'>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-sony.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo-sony.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-sony.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-sony.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-sony.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-sony.png" alt="search"></a>
-							</div>
+							<jdoc:include type="modules" name="position-7"/>
 						</li>
 						<li class='slide'>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-gazprom.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-gazprom.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-gazprom.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-gazprom.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-gazprom.png" alt="search"></a>
-							</div>
-							<div class="slide-logo">
-								<a href="">
-									<img src="images/logo-gazprom.png" alt="search"></a>
-							</div>
+							<jdoc:include type="modules" name="position-8"/>
+
 						</li>
 
 					</ul>
@@ -204,37 +113,37 @@
 					<ul>
 						<li>
 							<a href="low-current-systems.html">
-								<img src="images/icon-1.png" alt="camera" class="section-img">
+								<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon-1.png" alt="camera" class="section-img">
 								<p class="section-text">Слаботочные системы</p>
 							</a>
 						</li>
 						<li>
 							<a href="it-consulting.html">
-								<img src="images/icon-2.png" alt="rocket" class="section-img">
+								<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon-2.png" alt="rocket" class="section-img">
 								<p class="section-text">ИТ Консалтинг</p>
 							</a>
 						</li>
 						<li>
 							<a href="it-safety.html">
-								<img src="images/icon-3.png" alt="security" class="section-img">
+								<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon-3.png" alt="security" class="section-img">
 								<p class="section-text">ИТ Безопасность</p>
 							</a>
 						</li>
 						<li>
 							<a href="archive-services.html">
-								<img src="images/icon-4.png" alt="archive" class="section-img">
+								<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon-4.png" alt="archive" class="section-img">
 								<p class="section-text">Архивные услуги</p>
 							</a>
 						</li>
 						<li>
 							<a href="energy-audit.html">
-								<img src="images/icon-5.png" alt="energy" class="section-img">
+								<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon-5.png" alt="energy" class="section-img">
 								<p class="section-text">Энергоаудит</p>
 							</a>
 						</li>
 						<li>
 							<a href="protection-of-premises.html">
-								<img src="images/icon-6.png" alt="protection" class="section-img">
+								<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon-6.png" alt="protection" class="section-img">
 								<p class="section-text">Защита помещений</p>
 							</a>
 						</li>
