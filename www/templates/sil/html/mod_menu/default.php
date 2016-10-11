@@ -10,7 +10,7 @@
 defined('_JEXEC') or die;
 ?>
 <ul class="top-nav-menu">
-<?php 
+<?php
 foreach ($list as $i => $item)
 {
 	$current = FALSE;
@@ -19,7 +19,7 @@ foreach ($list as $i => $item)
     {
         $current = TRUE;
     }
-    
+
     echo "<li>";
     
     if ($current)

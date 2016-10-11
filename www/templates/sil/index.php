@@ -168,15 +168,15 @@
 				<h1>ОБРАТНАЯ СВЯЗЬ</h1>
 				<h3>Задайте мне ваш вопрос..,</h3>
 				<div class="barcode">
-					<img src="images/barcode.png" alt="barcode"></div>
+					<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/barcode.png" alt="barcode"></div>
 				<h2>Иван Дробовиков</h2>
 				<h4>Администратор сайта</h4>
 				<div class="electromail">
-					<img src="images/mail.png" alt="mail">
+					<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/mail.png" alt="mail">
 					<p>Веб форма орбратной связи</p>
 				</div>
 				<div class="electromail">
-					<img src="images/mail.png" alt="mail">
+					<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/mail.png" alt="mail">
 					<p>Электропочта</p>
 				</div>
 

@@ -8,11 +8,11 @@
  */
 
 defined('_JEXEC') or die;
-
+$a =0;
 foreach ($list as $item) : 
 ?>
 
-    <li>
+    <?php  echo "<li class=".$a++.">";?>
         <?php if($child) {echo "&nbsp";}?>
         <a href="<?php echo JRoute::_(ContentHelperRoute::getCategoryRoute($item->id));?>"><?php echo $item->title;?></a>
     <?php if($params->get('show_children') && count($item->getChildren())) :?>
