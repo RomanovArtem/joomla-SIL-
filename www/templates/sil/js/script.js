@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    $('.logo').mouseenter(function() {
-        $('.side-bar .left-nav-menu ul').slideDown(400);
+    $('.item-124').mouseenter(function() {
+        $('.side-bar .nav ul').slideDown(400);
     });
-    $('.logo').mouseleave(function() {
-        $('.side-bar .left-nav-menu ul').slideToggle(400);
+    $('.item-124').mouseleave(function() {
+        $('.side-bar .nav ul').slideToggle(400);
     });
 
     $('.slider').jCarouselLite({
@@ -27,9 +27,9 @@ $(document).ready(function() {
         }
     });
 
-    $(document).ready(function() {
+  /*  $(document).ready(function() {
         var url = document.location.href;
-        $.each($("div.header a"), function() {
+        $.each($(".nav a"), function() {
             if (url == this.href) {
                 $(this).addClass('current');
             };
@@ -38,12 +38,12 @@ $(document).ready(function() {
 
     $(document).ready(function() {
         var url = document.location.href;
-        $.each($("ul.left-nav-menu a"), function() {
+        $.each($(".header .nav a"), function() {
             if (url == this.href) {
                 $(this).addClass('current');
             };
         });
-    });
+    }); */
 
     var slideWidth = $(window).width() * 0.204;
     var dot_counter = 0;

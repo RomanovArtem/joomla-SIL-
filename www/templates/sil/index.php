@@ -23,7 +23,7 @@
 	<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/back.png" alt="back" class="background">
 	<div class="side-bar">
 		<div class="logo">
-			<a href='/index.php'>
+			<a href='/'>
 				<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo.png" alt="logo" id="logo-img"></a>
 		</div>
 	<!--	<ul class="left-nav-menu">
