@@ -5,6 +5,8 @@
     
     $doc->addStyleSheet(JUri::base(TRUE). '/templates/' . $doc->template . '/css/style.css');
     $doc->addStyleSheet(JUri::base(TRUE). '/templates/' . $doc->template . '/css/reset.css');
+	$doc->addStyleSheet(JUri::base(TRUE). '/templates/' . $doc->template . '/css/chosen.css');
+
     //$doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/jcarousellite_1.0.1.js', 'text/javascript');
     //$doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/jquery-1.8.2.min.js', 'text/javascript');
     //$doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/script.js', 'text/javascript');
@@ -186,6 +188,10 @@
 	</div>
 
 	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/jquery-1.8.2.min.js"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/chosen.jquery.min.js"></script>
+
 	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/jcarousellite_1.0.1.js"></script>
 	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/script.js"></script>
 

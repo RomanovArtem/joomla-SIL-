@@ -5,6 +5,7 @@
     
     $doc->addStyleSheet(JUri::base(TRUE). '/templates/' . $doc->template . '/css/style.css');
     $doc->addStyleSheet(JUri::base(TRUE). '/templates/' . $doc->template . '/css/reset.css');
+	$doc->addStyleSheet(JUri::base(TRUE). '/templates/' . $doc->template . '/css/chosen.css');
     //$doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/jcarousellite_1.0.1.js', 'text/javascript');
     //$doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/jquery-1.8.2.min.js', 'text/javascript');
     //$doc->addScript(JUri::base(TRUE)    . '/templates/' . $doc->template . '/js/script.js', 'text/javascript');
@@ -103,15 +104,15 @@
 				<h1>ОБРАТНАЯ СВЯЗЬ</h1>
 				<h3>Задайте мне ваш вопрос..,</h3>
 				<div class="barcode">
-					<img src="images/barcode.png" alt="barcode"></div>
+					<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/barcode.png" alt="barcode"></div>
 				<h2>Иван Дробовиков</h2>
 				<h4>Администратор сайта</h4>
 				<div class="electromail">
-					<img src="images/mail.png" alt="mail">
+					<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/mail.png" alt="mail">
 					<p>Веб форма орбратной связи</p>
 				</div>
 				<div class="electromail">
-					<img src="images/mail.png" alt="mail">
+					<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/mail.png" alt="mail">
 					<p>Электропочта</p>
 				</div>
 
@@ -120,7 +121,12 @@
 
 	</div>
 
-	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/chosen.jquery.min.js"></script>
+
+
 	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/jcarousellite_1.0.1.js"></script>
 	<script type="text/javascript" src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/js/script.js"></script>
 
