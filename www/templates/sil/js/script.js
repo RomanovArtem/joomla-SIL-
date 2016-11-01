@@ -19,6 +19,35 @@ $(document).ready(function() {
     $('.feedback').click(function() {
         $('.floating-block').slideToggle(400);
     });
+	
+	$('.about-us h1').click(function() {
+        $('.side-bar').fadeTo(500, 0);
+		//$('.side-bar').hide('.side-bar', { direction: "right" }, 1000);
+    });
+	
+	$('.menu_link').click(function() {
+        $('.side-bar').fadeIn();
+        $('.menu_link_down').fadeIn();
+		$('.menu_link').fadeOut()
+		$('.header').fadeOut();
+		$('.content').fadeOut();
+		$('.footer-information').fadeOut();
+		$('.contact-details').fadeOut();
+		$('.feedback').fadeIn();
+    });
+	
+	$('.menu_link_down').click(function() {
+        $('.side-bar').fadeOut();
+        $('.menu_link_down').fadeOut();
+		$('.menu_link').fadeIn();
+		$('.header').fadeIn();
+		$('.content').fadeIn();
+		$('.footer-information').fadeIn();
+		$('.contact-details').fadeIn();
+		$('.feedback').fadeOut();
+		$('.floating-block').fadeOut();
+
+    });
 
     $(document).mouseup(function(e) {
         var container = $('.floating-block');
