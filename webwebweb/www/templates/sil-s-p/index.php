@@ -16,11 +16,14 @@
     <jdoc:include type="head" />
     <link rel="icon" href="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon.ico" type="image/x-icon">
-            
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+	
 </head>
 
 <body>
 	<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/back.png" alt="back" class="background">
+	<a title="" id="showMenu" class="menu_link"><span>НАВИГАЦИЯ ПО САЙТУ<i><em></em><em></em><em></em></i></span></a>
+	<a title="" id="showMenu" class="menu_link_down"><span>ВЕРНУТЬСЯ НА САЙТ<i><em></em><em></em><em></em></i></span></a>
 	<div class="side-bar">
 		<div class="logo">
 			<a href='/'>

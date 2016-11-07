@@ -18,56 +18,24 @@
     <jdoc:include type="head" />
     <link rel="icon" href="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
             
 </head>
 
 <body>
 	<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/back.png" alt="back" class="background">
+	<a title="" id="showMenu" class="menu_link"><span>НАВИГАЦИЯ ПО САЙТУ<i><em></em><em></em><em></em></i></span></a>
+	<a title="" id="showMenu" class="menu_link_down"><span>ВЕРНУТЬСЯ НА САЙТ<i><em></em><em></em><em></em></i></span></a>
 	<div class="side-bar">
 		<div class="logo">
 			<a href='/'>
 				<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/logo.png" alt="logo" id="logo-img"></a>
 		</div>
-	<!--	<ul class="left-nav-menu">
-			<div class="block-submenu">
-				<li class="low-voltage-systems">
-					<a href="low-current-systems.html">Слаботочные системы</a>
-
-					<ul class="submenu">
-						<li>
-							<a href="video-surveillance.html">Видеонаблюдение</a>
-						</li>
-						<li>
-							<a href="access-control.html">Контроль доступа</a>
-						</li>
-						<li>
-							<a href="doorphone.html">Домофонная связь</a>
-						</li>
-					</ul>
-
-				</li>
-			</div>
-			<li>
-				<a href="it-consulting.html">ИТ Консалтинг</a>
-			</li>
-			<li>
-				<a href="it-safety.html">ИТ Безопасность</a>
-			</li>
-			<li>
-				<a href="archive-services.html">Архивные услуги</a>
-			</li>
-			<li>
-				<a href="energy-audit.html">Энергоаудит</a>
-			</li>
-			<li>
-				<a href="protection-of-premises.html">Защита помещений</a>
-			</li>
-		</ul>  -->
         <jdoc:include type="modules" name="position-1"/>
 	
     <jdoc:include type="modules" name="position-2"/>
 		<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/search.png" alt="search" class="search-img">
-        
+
         </div>
 	<div class="block-body">
 
@@ -76,7 +44,7 @@
 		</div>
 
 		<div class="content">
-			<div class="partners">
+			<div class="partners van move-right">
 				<h1>Партнеры</h1>
 				<div class='viewport'>
 					<ul class='slidewrapper' data-current=0>
@@ -91,7 +59,6 @@
 						</li>
 						<li class='slide'>
 							<jdoc:include type="modules" name="position-8"/>
-
 						</li>
 
 					</ul>
@@ -116,7 +83,7 @@
 						<li>
 							<a href="low-current-systems.html">
 								<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/icon-1.png" alt="camera" class="section-img">
-								<p class="section-text">Слаботочные системы</p>
+								<p class="section-text">Сcлаботочные системы</p>
 							</a>
 						</li>
 						<li>
@@ -180,6 +147,7 @@
 				<div class="electromail">
 					<img src="<?php echo JUri::base(TRUE).'/templates/' . $doc->template;?>/images/mail.png" alt="mail">
 					<p>Электропочта</p>
+
 				</div>
 
 			</div>
